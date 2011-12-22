@@ -1,0 +1,3 @@
+mainBackup.c:		//while (mod->outMod->CanWrite() < (remainingBytes/WINAMP_BUFFER_SIZE)*WINAMP_BUFFER_SIZE)
+main.c:		//while (mod->outMod->CanWrite() < (remainingBytes/WINAMP_BUFFER_SIZE)*WINAMP_BUFFER_SIZE)
+main.c.bak.c:		//while (mod->outMod->CanWrite() < (remainingBytes/WINAMP_BUFFER_SIZE)*WINAMP_BUFFER_SIZE)

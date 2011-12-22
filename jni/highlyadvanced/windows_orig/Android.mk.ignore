@@ -1,0 +1,13 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_CFLAGS := -DC_CORE
+LOCAL_MODULE    := highlyadvanced
+LOCAL_C_INCLUDES := ./
+LOCAL_SRC_FILES := VBA/bios.cpp  VBA/GBA.cpp  VBA/getopt1.c  VBA/Globals.cpp  VBA/memgzio.c  VBA/psftag.c  VBA/snd_interp.cpp  VBA/Sound.cpp  VBA/unzip.cpp  VBA/Util.cpp
+
+
+
+
+include $(BUILD_STATIC_LIBRARY)
